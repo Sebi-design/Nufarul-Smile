@@ -95,7 +95,8 @@ function initMobileMenu() {
   const hamburgerBtn = document.getElementById("hamburger-btn");
   const mobileDrawer = document.getElementById("mobile-drawer");
   const overlay = document.getElementById("mobile-drawer-overlay");
-  const mobileLinks = document.querySelectorAll(".mobile-nav-link, .mobile-drawer-footer .btn");
+  const closeBtn = document.getElementById("mobile-drawer-close");
+  const mobileLinks = document.querySelectorAll(".mobile-nav-link, .mobile-drawer-footer .btn, .mobile-drawer-logo-link");
 
   if (!hamburgerBtn || !mobileDrawer || !overlay) return;
 
@@ -115,6 +116,9 @@ function initMobileMenu() {
   }
 
   hamburgerBtn.addEventListener("click", () => toggleMenu());
+  if (closeBtn) {
+    closeBtn.addEventListener("click", () => toggleMenu(false));
+  }
   overlay.addEventListener("click", () => toggleMenu(false));
 
   mobileLinks.forEach((link) => {
