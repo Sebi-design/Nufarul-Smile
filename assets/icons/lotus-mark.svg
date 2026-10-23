@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80" fill="none">
+  <defs>
+    <linearGradient id="lotusGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="50%" stop-color="#B89152"/>
+      <stop offset="100%" stop-color="#8F6B2B"/>
+    </linearGradient>
+    <radialGradient id="lotusPetalFill" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="85%" stop-color="#FAF9F6"/>
+      <stop offset="100%" stop-color="#EFEBE4"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Top Center Petal -->
+  <path d="M 50 8 C 42 22 42 38 50 48 C 58 38 58 22 50 8 Z" 
+        fill="url(#lotusPetalFill)" stroke="url(#lotusGold)" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Upper Left Petal -->
+  <path d="M 46 16 C 34 20 26 32 34 46 C 40 42 46 32 46 16 Z" 
+        fill="url(#lotusPetalFill)" stroke="url(#lotusGold)" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Upper Right Petal -->
+  <path d="M 54 16 C 66 20 74 32 66 46 C 60 42 54 32 54 16 Z" 
+        fill="url(#lotusPetalFill)" stroke="url(#lotusGold)" stroke-width="1.8" stroke-linejoin="round"/>
+
+  <!-- Mid Left Petal -->
+  <path d="M 32 30 C 20 38 18 50 30 60 C 36 52 36 40 32 30 Z" 
+        fill="url(#lotusPetalFill)" stroke="url(#lotusGold)" stroke-width="1.6" stroke-linejoin="round"/>
+
+  <!-- Mid Right Petal -->
+  <path d="M 68 30 C 80 38 82 50 70 60 C 64 52 64 40 68 30 Z" 
+        fill="url(#lotusPetalFill)" stroke="url(#lotusGold)" stroke-width="1.6" stroke-linejoin="round"/>
+
+  <!-- Outer Low Left Petal -->
+  <path d="M 26 48 C 14 54 14 65 26 68 C 34 66 36 58 26 48 Z" 
+        fill="url(#lotusPetalFill)" stroke="url(#lotusGold)" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- Outer Low Right Petal -->
+  <path d="M 74 48 C 86 54 86 65 74 68 C 66 66 64 58 74 48 Z" 
+        fill="url(#lotusPetalFill)" stroke="url(#lotusGold)" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- Bottom Arch Calyx (Base) -->
+  <path d="M 24 68 C 38 78 62 78 76 68 C 62 72 38 72 24 68 Z" 
+        fill="url(#lotusGold)" stroke="url(#lotusGold)" stroke-width="1"/>
+
+  <!-- Center Stylized Tooth Petal -->
+  <path d="M 50 30 C 45 25 38 26 37 33 C 36 40 38 48 44 62 C 46 66 48 66 49 60 C 49.5 57 50.5 57 51 60 C 52 66 54 66 56 62 C 62 48 64 40 63 33 C 62 26 55 25 50 30 Z" 
+        fill="#FFFFFF" stroke="url(#lotusGold)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Inner Tooth Arch -->
+  <path d="M 46 48 C 47.5 44 52.5 44 54 48 C 55 51 53 56 50 57 C 47 56 45 51 46 48 Z" 
+        fill="none" stroke="url(#lotusGold)" stroke-width="1.4" stroke-linecap="round"/>
+</svg>
